@@ -1,7 +1,7 @@
 {
   "name": "@jsnotebooks/local-client",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "publishConfig": {
     "access": "public"
   },
