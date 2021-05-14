@@ -1,0 +1,11 @@
+.action-bar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #37414b;
+}
+
+.wrapper {
+  margin-top: 20px;
+  border: 1px solid gray;
+  padding-bottom: 5px;
+}
