@@ -2,7 +2,8 @@ import { Command } from "commander";
 import { serve } from "@jsnotebooks/local-api";
 import path from "path";
 
-const isProduction = process.env.NODE_ENV === "production";
+const isProduction = "production" === "production";
+// const isProduction = process.env.NODE_ENV === "production";
 
 export const serveCommand = new Command()
   .command("serve [filename]")
