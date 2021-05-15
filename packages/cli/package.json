@@ -1,6 +1,6 @@
 {
   "name": "jsnotebooks",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/index.js",
   "publishConfig": {
@@ -22,9 +22,9 @@
     "@jsnotebooks/local-client": "^1.0.1"
   },
   "devDependencies": {
-    "commander": "^7.2.0",
     "@jsnotebooks/local-api": "^1.0.1",
     "@types/node": "^15.0.3",
+    "commander": "^7.2.0",
     "esbuild": "^0.11.21",
     "typescript": "^4.2.4"
   }
